@@ -5,7 +5,7 @@
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .button-area button {
-        width: 193px !important;
+        width: 49.5% !important;
     }
     .modal-button{
         margin-left: 144px;
@@ -19,7 +19,7 @@
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .button-area button {
-        width: 263px !important;
+        width: 49.5% !important;
     }
 }
 
@@ -32,7 +32,7 @@
   and (orientation: portrait) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
     .button-area button {
-        width: 263px !important;
+        width: 49.5% !important;
     }
 }
 
@@ -43,7 +43,7 @@
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1.5) {
     .button-area button {
-        width: 315px;
+        width: 49.5%
     }
 }
 
@@ -64,7 +64,7 @@
         width: 100% !important;
     }
     .button-area button {
-        width: 188px;
+        width: 49.5%
     }
     .sample-card {
         width: 379px;

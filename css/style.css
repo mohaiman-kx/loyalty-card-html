@@ -1,0 +1,174 @@
+*{margin: 0; padding: 0;}
+
+
+body,html{
+    height:100%;
+    overflow: hidden;
+}
+
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+a{
+    color: #000000;
+}
+
+.main{
+    padding: 100px 0;
+}
+
+
+input::placeholder {
+    color: #cfcccc !important;
+}
+
+.custom-btn {
+    background: transparent;
+    width: 60%;
+    text-transform: uppercase;
+    margin: 0px 0px 25px 0px;
+    padding: 20px 0px;
+    border: 1px solid #808080;
+    letter-spacing: 1px;
+    transition: all ease .4s;
+    color: #000;
+}
+
+
+.custom-btn:hover {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+   
+}
+
+
+.give-phone-number-area{
+    display: none;
+}
+
+
+.give-phone-number-area input.form-control , .give-otp-area input.form-control {
+    border-radius: 0;
+    border: 1px solid #cacaca;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px rgba(10,10,10,.1);
+    transition: box-shadow 0.5s,border-color 0.25s ease-in-out;
+    line-height: 1.5;
+    font-family: inherit;
+    padding: 25px 10px;
+}
+
+.disabled-color{
+    color: #cfcccc;
+}
+
+.opt-text span {
+    font-weight: 500;
+}
+
+#resend{
+    display: none;
+    text-decoration: underline;
+    padding: 5px 0;
+}
+
+.back-area {
+    position: absolute;
+    top: -30px;
+}
+
+.opt-text {
+    margin: 20px 0px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.btn-active{
+    background: #000;
+    color: #fff;
+}
+
+.button-area {
+    width: 100%;
+}
+
+
+.button-area button{
+    width: 315px;
+    
+}
+
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-dialog {
+    max-width: 800px !important;
+    margin: 6rem auto;
+}
+
+h5#exampleModalLabel {
+    font-family: inherit;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.modal-header{
+    border: none;
+    padding: 20px 20px;
+}
+
+
+.sample-card {
+    width: 480px;
+    height: 280px;
+    background: #b3d7ff;
+    margin: 0 auto;
+}
+
+.modal-footer{
+    border-top: 0;
+}
+
+
+.custom-btn-modal{
+    background: transparent;
+    width: 40%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 20px 0px;
+    border: 1px solid #808080;
+    letter-spacing: 1px;
+    transition: all ease .4s;
+    color: #000;
+}
+
+.custom-btn-modal:hover{
+    color: #fff;
+    background:#000;
+    border: 1px solid #000;
+}
+
+
+.w-100{
+    width: 100%;
+}
+
+.modal-button {
+    width: 594px;
+    margin: 0 auto;
+    margin-left: 160px;
+    margin-bottom: 40px;
+
+}
+
+
+button.close {
+    position: absolute;
+    right: 25px;
+}

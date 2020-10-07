@@ -19,6 +19,97 @@
   and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .button-area button {
-        width: 263px;
+        width: 263px !important;
     }
 }
+
+
+/*ipad pro responsive*/
+/* Portrait */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .button-area button {
+        width: 263px !important;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .button-area button {
+        width: 315px;
+    }
+}
+
+
+
+
+
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .custom-btn{
+        width: 100% !important;
+    }
+    .button-area button {
+        width: 188px;
+    }
+    .sample-card {
+        width: 379px;
+        height: 215px;
+    }
+    .modal-button {
+        width: 468px;
+        margin-left: 16px;
+    }
+    .give-otp-area {
+        margin-top: 50px;
+    }
+    .mt-20{
+        margin-top: 0;
+    }
+    .give-phone-number-area {
+        margin-top: 50px;
+    }
+    .sample-card {
+        width: 343px;
+        height: 188px;
+    }
+    .modal-button {
+        width: 100%;
+    }
+    .custom-btn-modal{
+        width: 45.5%;
+    }
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
